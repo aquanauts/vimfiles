@@ -1,1 +1,0 @@
-set wildignore+=vendor,.gems

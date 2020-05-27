@@ -73,7 +73,7 @@ set visualbell
 " Global ignores
 set wildignore+=tmp
 
-" My Favorite font
+" Preferred font
 set guifont=Inconsolata:h18.00
 
 " Prevent extra file system events when writing files
@@ -90,11 +90,6 @@ imap <F1> <C-o>:echo<CR>
 " Remap omni-completion to CTRL+Space
 nmap <C-space> ea<C-n>
 imap <C-space> <C-n>
-
-" Use escape to enter normal mode in terminal
-if has('nvim')
-  tnoremap <Esc> <C-\><C-n>
-endif
 
 " Source project local .vimrc files
 set exrc

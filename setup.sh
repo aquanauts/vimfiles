@@ -39,38 +39,18 @@ fetch_repo git://github.com/vim-airline/vim-airline.git
 fetch_repo https://github.com/MarcWeber/vim-addon-mw-utils.git
 fetch_repo https://github.com/ctrlpvim/ctrlp.vim
 
-# Rust dependencies
-fetch_repo https://github.com/rust-lang/rust.vim.git
-fetch_repo https://github.com/rhysd/rust-doc.vim
-
 # Create HTML using css expressions
 fetch_repo https://github.com/rstacruz/sparkup.git
 pushd bundle/sparkup
 make vim-pathogen
 popd
 
-# Clojure repl goodness
-fetch_repo git://github.com/tpope/vim-salve.git
-fetch_repo git://github.com/tpope/vim-projectionist.git
-fetch_repo git://github.com/tpope/vim-dispatch.git
-fetch_repo git://github.com/tpope/vim-fireplace.git
-
 # Vim Jedi
 fetch_repo https://github.com/davidhalter/jedi-vim.git
-
-#e Other clojure goodies
-fetch_repo https://github.com/eapache/rainbow_parentheses.vim.git
-fetch_repo https://github.com/guns/vim-clojure-static.git 
 
 # Snippets for many languages (hit tab)
 fetch_repo https://github.com/tomtom/tlib_vim.git
 fetch_repo https://github.com/garbas/vim-snipmate.git
-
-# Automatically add block endings for ruby
-fetch_repo https://github.com/tpope/vim-endwise.git
-
-# An older version is included with vim. We want the newest.
-fetch_repo https://github.com/vim-ruby/vim-ruby.git
 
 # Vim has basic JavaScript support, but this might be better
 fetch_repo https://github.com/pangloss/vim-javascript.git

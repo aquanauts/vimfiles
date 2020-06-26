@@ -25,6 +25,9 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 set undofile
 set undodir=~/.vim/undodir//
 
+" Automatically remove trailing whitespace on save
+autocmd BufWritePre * %s/\s\+$//e
+
 " Command history length
 set history=10000
 

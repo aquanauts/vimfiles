@@ -20,4 +20,4 @@ This isn't used by every programmer at Aquatic, but it's used by some of them.
   * Tags
   * Omni-complete
   * Snippets
-* Includes (jrsacks)[https://github.com/jrsacks]'s test splitter.
+* Includes [jrsacks](https://github.com/jrsacks)'s test splitter.

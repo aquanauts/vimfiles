@@ -97,5 +97,5 @@ imap <C-space> <C-n>
 " Source project local .vimrc files
 set exrc
 
-" Allow deprecated parser for snippets
-let g:snipMate = { 'snippet_version' : 0 }
+" Upgrade snipmate parser
+let g:snipMate = { 'snippet_version' : 1 }
